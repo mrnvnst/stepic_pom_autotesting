@@ -1,5 +1,6 @@
 class Urls:
     link = "http://selenium1py.pythonanywhere.com/"
+    login_link = "http://selenium1py.pythonanywhere.com/ru/accounts/login/"
 
 
 class Language:
