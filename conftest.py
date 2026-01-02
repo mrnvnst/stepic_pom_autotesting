@@ -3,7 +3,7 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from stepic_pom_autotesting.data import Language as L, Urls as U
+from data import Language as L, Urls as U
 
 
 def pytest_addoption(parser):
