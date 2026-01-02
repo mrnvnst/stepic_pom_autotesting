@@ -10,6 +10,7 @@ def pytest_addoption(parser):
     parser.addoption('--language', action='store', default='en',
                      help=f"Set default language: {L.langs}")
 
+
 @pytest.fixture
 def browser(request):
     user_language = request.config.getoption("language")
